@@ -8,7 +8,7 @@ export function quoteShipping(orderTotalCents) {
 
 // Orders of at least 5000 cents qualify for free shipping.
 function shippingFee(orderTotalCents) {
-  if (orderTotalCents > 5000) {
+  if (orderTotalCents >= 5000) {
     return 0;
   }
 
