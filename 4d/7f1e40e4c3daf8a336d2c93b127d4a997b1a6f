@@ -1,0 +1,23 @@
+test/shipping.test.mjs
+  s_71ad2034164515::t_ab9f8817c64763 1-15
+package.json
+  s_71ad2034164515::t_ab9f8817c64763 1-8
+src/shipping.mjs
+  s_71ad2034164515::t_ab9f8817c64763 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4d7f1e40e4c3daf8a336d2c93b127d4a997b1a6f",
+  "prompts": {},
+  "sessions": {
+    "s_71ad2034164515": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a10d43-fdb2-7132-8573-764fd1bad9f7",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Robin Braumann <robin.braumann@n8n.io>"
+    }
+  }
+}
