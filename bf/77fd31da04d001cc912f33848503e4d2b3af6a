@@ -1,0 +1,265 @@
+docs/commerce-model.md
+  s_71ad2034164515::t_b97cbb3ba866a6 1-35
+examples/checkout.mjs
+  s_71ad2034164515::t_b85a50fb2c3c4d 1-14
+package.json
+  s_71ad2034164515::t_e1faa506566b76 1-9
+src/billing/invoice.mjs
+  s_71ad2034164515::t_a3d57b872e9f31 1-36
+src/billing/refund.mjs
+  s_71ad2034164515::t_95e7a6aec68da5 1-29
+src/catalog/pricing.mjs
+  s_71ad2034164515::t_5e6f91319f6866 1-35
+src/core/registry.mjs
+  s_71ad2034164515::t_eed7b2465297ee 1-55
+src/core/store.mjs
+  s_71ad2034164515::t_5e7148260679d7 1-44
+src/core/values.mjs
+  s_71ad2034164515::t_f15c5394784d39 1-60
+src/inventory/reserve.mjs
+  s_71ad2034164515::t_1d65d91cd1440c 1-37
+src/models/addresses/query.mjs
+  s_71ad2034164515::t_bbd8d427915ddc 1-42
+src/models/addresses/record.mjs
+  s_71ad2034164515::t_5e65bfb601d398 1-50
+src/models/addresses/schema.mjs
+  s_71ad2034164515::t_b0b498a5929fa8 1-59
+src/models/addresses/view.mjs
+  s_71ad2034164515::t_c9a2a6b28d784d 1-36
+src/models/adjustments/query.mjs
+  s_71ad2034164515::t_abab37a0547480 1-42
+src/models/adjustments/record.mjs
+  s_71ad2034164515::t_f5a109f23c2df3 1-50
+src/models/adjustments/schema.mjs
+  s_71ad2034164515::t_695ae273bb34f7 1-59
+src/models/adjustments/view.mjs
+  s_71ad2034164515::t_c6afc7ce4abd62 1-36
+src/models/allocations/query.mjs
+  s_71ad2034164515::t_69ec044fbe34ab 1-42
+src/models/allocations/record.mjs
+  s_71ad2034164515::t_be40598a1dd32e 1-50
+src/models/allocations/schema.mjs
+  s_71ad2034164515::t_19c5c9c51d6906 1-61
+src/models/allocations/view.mjs
+  s_71ad2034164515::t_6c6e4c1cdf21b1 1-36
+src/models/assets/query.mjs
+  s_71ad2034164515::t_13668b15ca41c7 1-42
+src/models/assets/record.mjs
+  s_71ad2034164515::t_4f5b0968eeac67 1-50
+src/models/assets/schema.mjs
+  s_71ad2034164515::t_6c3f15fcb86a78 1-61
+src/models/assets/view.mjs
+  s_71ad2034164515::t_81c730c2aa63f2 1-36
+src/models/carriers/query.mjs
+  s_71ad2034164515::t_4ed3cfc6f7bf23 1-42
+src/models/carriers/record.mjs
+  s_71ad2034164515::t_3236790ffb0e4f 1-50
+src/models/carriers/schema.mjs
+  s_71ad2034164515::t_d22f40d084babd 1-59
+src/models/carriers/view.mjs
+  s_71ad2034164515::t_496721ef557d27 1-36
+src/models/catalogs/query.mjs
+  s_71ad2034164515::t_6e741fb1615fd1 1-42
+src/models/catalogs/record.mjs
+  s_71ad2034164515::t_e9220b5e991805 1-50
+src/models/catalogs/schema.mjs
+  s_71ad2034164515::t_a9ffb76bd1eb55 1-59
+src/models/catalogs/view.mjs
+  s_71ad2034164515::t_f62611c6b48881 1-36
+src/models/channels/query.mjs
+  s_71ad2034164515::t_470ffe7aa3db70 1-42
+src/models/channels/record.mjs
+  s_71ad2034164515::t_8c9b98bdc6d4b1 1-50
+src/models/channels/schema.mjs
+  s_71ad2034164515::t_e956237dcb1c49 1-59
+src/models/channels/view.mjs
+  s_71ad2034164515::t_9adea0469891a8 1-36
+src/models/customers/query.mjs
+  s_71ad2034164515::t_69129508af429a 1-42
+src/models/customers/record.mjs
+  s_71ad2034164515::t_880179dd9ea090 1-50
+src/models/customers/schema.mjs
+  s_71ad2034164515::t_8947d3b4504858 1-59
+src/models/customers/view.mjs
+  s_71ad2034164515::t_369e16f212fed0 1-36
+src/models/deliveries/query.mjs
+  s_71ad2034164515::t_522aaedc64e5d4 1-42
+src/models/deliveries/record.mjs
+  s_71ad2034164515::t_b878df81f01fab 1-50
+src/models/deliveries/schema.mjs
+  s_71ad2034164515::t_35d0bccb6adc39 1-59
+src/models/deliveries/view.mjs
+  s_71ad2034164515::t_6f3c109c04e07b 1-36
+src/models/discounts/query.mjs
+  s_71ad2034164515::t_d4950c8b59d2b2 1-42
+src/models/discounts/record.mjs
+  s_71ad2034164515::t_48a2fb048f56b2 1-50
+src/models/discounts/schema.mjs
+  s_71ad2034164515::t_6e71a6fab274a7 1-62
+src/models/discounts/view.mjs
+  s_71ad2034164515::t_23a06ec6a4afb1 1-36
+src/models/events/query.mjs
+  s_71ad2034164515::t_8292b730dcd7b0 1-42
+src/models/events/record.mjs
+  s_71ad2034164515::t_31f25115a7c1a6 1-50
+src/models/events/schema.mjs
+  s_71ad2034164515::t_3b9309eb007c65 1-59
+src/models/events/view.mjs
+  s_71ad2034164515::t_36d87f6325275e 1-36
+src/models/fulfillments/query.mjs
+  s_71ad2034164515::t_643b60bfb71eab 1-42
+src/models/fulfillments/record.mjs
+  s_71ad2034164515::t_c13673de520a0c 1-50
+src/models/fulfillments/schema.mjs
+  s_71ad2034164515::t_7b47854a056bb4 1-60
+src/models/fulfillments/view.mjs
+  s_71ad2034164515::t_72e69bc341a5a8 1-36
+src/models/giftcards/query.mjs
+  s_71ad2034164515::t_63d2af95f1287c 1-42
+src/models/giftcards/record.mjs
+  s_71ad2034164515::t_a9b80bba720ebb 1-50
+src/models/giftcards/schema.mjs
+  s_71ad2034164515::t_26a54a27c4a131 1-62
+src/models/giftcards/view.mjs
+  s_71ad2034164515::t_a628510fc9e383 1-36
+src/models/invoices/query.mjs
+  s_71ad2034164515::t_6f9d976f6988c0 1-42
+src/models/invoices/record.mjs
+  s_71ad2034164515::t_7f66d5213f0f6b 1-50
+src/models/invoices/schema.mjs
+  s_71ad2034164515::t_6f0277b27edab2 1-62
+src/models/invoices/view.mjs
+  s_71ad2034164515::t_547b82beeab552 1-36
+src/models/locations/query.mjs
+  s_71ad2034164515::t_c5dd902cf222cb 1-42
+src/models/locations/record.mjs
+  s_71ad2034164515::t_ad500ce6a79b3d 1-50
+src/models/locations/schema.mjs
+  s_71ad2034164515::t_981299cd3c3082 1-60
+src/models/locations/view.mjs
+  s_71ad2034164515::t_a5f3c7e0bf048c 1-36
+src/models/memberships/query.mjs
+  s_71ad2034164515::t_69f759280d3028 1-42
+src/models/memberships/record.mjs
+  s_71ad2034164515::t_1fe390a89c6edf 1-50
+src/models/memberships/schema.mjs
+  s_71ad2034164515::t_aef9a5843f6ebe 1-61
+src/models/memberships/view.mjs
+  s_71ad2034164515::t_a43a4b226b6c1b 1-36
+src/models/orders/query.mjs
+  s_71ad2034164515::t_9316f7d1896eff 1-42
+src/models/orders/record.mjs
+  s_71ad2034164515::t_20cf428cdf0ed2 1-50
+src/models/orders/schema.mjs
+  s_71ad2034164515::t_1a39486ab3325d 1-62
+src/models/orders/view.mjs
+  s_71ad2034164515::t_1ebacde8f4c353 1-36
+src/models/payments/query.mjs
+  s_71ad2034164515::t_dc5ce4edf51ee0 1-42
+src/models/payments/record.mjs
+  s_71ad2034164515::t_133f2bc3a27cb4 1-50
+src/models/payments/schema.mjs
+  s_71ad2034164515::t_4826f168983f37 1-62
+src/models/payments/view.mjs
+  s_71ad2034164515::t_bd33b826c58f1b 1-36
+src/models/plans/query.mjs
+  s_71ad2034164515::t_e776490bfcea19 1-42
+src/models/plans/record.mjs
+  s_71ad2034164515::t_e7373b8ab62044 1-50
+src/models/plans/schema.mjs
+  s_71ad2034164515::t_aa2c7e07fbd72e 1-62
+src/models/plans/view.mjs
+  s_71ad2034164515::t_7ce977bd460034 1-36
+src/models/products/query.mjs
+  s_71ad2034164515::t_bde4740ef24953 1-42
+src/models/products/record.mjs
+  s_71ad2034164515::t_ca4a20eafaea29 1-50
+src/models/products/schema.mjs
+  s_71ad2034164515::t_3e4aa6e8c88238 1-60
+src/models/products/view.mjs
+  s_71ad2034164515::t_f7af7e561aa05e 1-36
+src/models/receipts/query.mjs
+  s_71ad2034164515::t_cdcbdc5757b5bd 1-42
+src/models/receipts/record.mjs
+  s_71ad2034164515::t_86e4c19515be38 1-50
+src/models/receipts/schema.mjs
+  s_71ad2034164515::t_e0c6bf97fa86ec 1-61
+src/models/receipts/view.mjs
+  s_71ad2034164515::t_6014774e9a088e 1-36
+src/models/returns/query.mjs
+  s_71ad2034164515::t_41b4278faa586a 1-42
+src/models/returns/record.mjs
+  s_71ad2034164515::t_ff1ce8ee02434e 1-50
+src/models/returns/schema.mjs
+  s_71ad2034164515::t_181b5723c820f0 1-60
+src/models/returns/view.mjs
+  s_71ad2034164515::t_20a2f71d64e407 1-36
+src/models/shipments/query.mjs
+  s_71ad2034164515::t_d29ab36c188d84 1-42
+src/models/shipments/record.mjs
+  s_71ad2034164515::t_6bbf6fb272965c 1-50
+src/models/shipments/schema.mjs
+  s_71ad2034164515::t_bed1fbef9bed97 1-61
+src/models/shipments/view.mjs
+  s_71ad2034164515::t_36f51153caf587 1-36
+src/models/subscriptions/query.mjs
+  s_71ad2034164515::t_aa38b7a573b3c8 1-42
+src/models/subscriptions/record.mjs
+  s_71ad2034164515::t_0e9fc8e97ed52f 1-50
+src/models/subscriptions/schema.mjs
+  s_71ad2034164515::t_ef9de23d622c8f 1-61
+src/models/subscriptions/view.mjs
+  s_71ad2034164515::t_8c2f14e79a37f2 1-36
+src/models/warehouses/query.mjs
+  s_71ad2034164515::t_9c180ce2609d1e 1-42
+src/models/warehouses/record.mjs
+  s_71ad2034164515::t_12b1b4633fb315 1-50
+src/models/warehouses/schema.mjs
+  s_71ad2034164515::t_b34efbf4a902ee 1-60
+src/models/warehouses/view.mjs
+  s_71ad2034164515::t_cf9964153be543 1-36
+src/models/wishlists/query.mjs
+  s_71ad2034164515::t_315bb4a58a8a74 1-42
+src/models/wishlists/record.mjs
+  s_71ad2034164515::t_f4ff6705874947 1-50
+src/models/wishlists/schema.mjs
+  s_71ad2034164515::t_6785c1a3448758 1-59
+src/models/wishlists/view.mjs
+  s_71ad2034164515::t_e3e0f59a8f0db8 1-36
+src/orders/checkout.mjs
+  s_71ad2034164515::t_f9c614fc6efccf 1-26
+src/orders/idempotency.mjs
+  s_71ad2034164515::t_b4741a63ab1811 1-30
+src/pagination/page.mjs
+  s_71ad2034164515::t_ff426a475a901b 1-25
+src/shipping.mjs
+  s_71ad2034164515::t_5b81e9d1c1e7a2 1-14
+src/subscriptions/renewal.mjs
+  s_71ad2034164515::t_d765ffb42221d3 1-29
+src/workers/dispatch.mjs
+  s_71ad2034164515::t_08e0d7ccc8428a 1-31
+src/workers/retry.mjs
+  s_71ad2034164515::t_420d4b06022226 1-22
+test/checkout.test.mjs
+  s_71ad2034164515::t_d85c4598e98433 1-43
+test/resources.test.mjs
+  s_71ad2034164515::t_9f77fbbdc2a17f 1-57
+test/workers.test.mjs
+  s_71ad2034164515::t_4825a66191b1d9 1-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bf77fd31da04d001cc912f33848503e4d2b3af6a",
+  "prompts": {},
+  "sessions": {
+    "s_71ad2034164515": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a10d43-fdb2-7132-8573-764fd1bad9f7",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Robin Braumann <robin.braumann@n8n.io>"
+    }
+  }
+}
