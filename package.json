@@ -1,0 +1,9 @@
+{
+  "name": "cubic-poc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/checkout.mjs"
+  }
+}
