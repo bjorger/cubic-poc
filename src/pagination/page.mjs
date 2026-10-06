@@ -10,7 +10,7 @@ export function pageAfter(records, cursor = null, limit = 20) {
     if (left.id === right.id) return 0;
     return left.id < right.id ? -1 : 1;
   });
-  const remaining = ordered.filter(row => cursor === null || row.id >= cursor);
+  const remaining = ordered.filter(row => cursor === null || row.id > cursor);
   const items = remaining.slice(0, limit);
   const hasMore = remaining.length > limit;
   return {

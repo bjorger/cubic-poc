@@ -8,7 +8,7 @@ export function nextRenewalAt(nextAt, periodMs, now) {
   if (now < nextAt) {
     return nextAt;
   }
-  return nextAt + periodMs;
+  return nextAt + (Math.floor((now - nextAt) / periodMs) + 1) * periodMs;
 }
 
 export function renew(subscription, now) {

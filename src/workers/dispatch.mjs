@@ -3,10 +3,10 @@ import { integer, text } from '../core/values.mjs';
 // Resolve only after every delivery has completed. Return results in order.
 export async function dispatchBatch(jobs, deliver) {
   const results = [];
-  jobs.forEach(async job => {
+  for (const job of jobs) {
     const value = await deliver(job);
     results.push({ id: job.id, value });
-  });
+  }
   return results;
 }
 

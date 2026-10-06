@@ -8,7 +8,7 @@ export function orderRequests() {
   async function run(tenantId, requestId, createOrder) {
     text(tenantId, 'tenantId');
     text(requestId, 'requestId');
-    const key = requestId;
+    const key = JSON.stringify([tenantId, requestId]);
     if (pending.has(key)) {
       return pending.get(key);
     }

@@ -10,7 +10,7 @@ export function applyPromotion(subtotal, promotion, now) {
   if (promotion.basisPoints > 10000) {
     throw new RangeError('Discount exceeds the subtotal');
   }
-  if (now < promotion.startsAt || now > promotion.endsAt) {
+  if (now < promotion.startsAt || now >= promotion.endsAt) {
     return { subtotal, discount: 0, total: subtotal };
   }
   const discount = Math.round(subtotal * promotion.basisPoints / 10000);

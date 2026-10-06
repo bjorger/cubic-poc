@@ -6,7 +6,12 @@ export function reserveStock(stock, lines) {
     sku: text(line.sku, 'sku'),
     quantity: integer(line.quantity, 'quantity', 1),
   }));
+  const totals = new Map();
   for (const line of requested) {
+    totals.set(line.sku, (totals.get(line.sku) ?? 0) + line.quantity);
+  }
+  const grouped = [...totals].map(([sku, quantity]) => ({ sku, quantity }));
+  for (const line of grouped) {
     const row = stock.get(line.sku);
     if (!row || row.onHand - row.reserved < line.quantity) {
       throw new RangeError('Insufficient stock');

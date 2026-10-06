@@ -6,7 +6,7 @@ export function reserveRefund(payment, amountCents) {
   integer(payment.capturedCents, 'capturedCents');
   integer(payment.refundedCents, 'refundedCents');
   integer(payment.pendingCents, 'pendingCents');
-  const available = payment.capturedCents - payment.pendingCents;
+  const available = payment.capturedCents - payment.pendingCents - payment.refundedCents;
   if (amountCents > available) {
     throw new RangeError('Refund exceeds the remaining capture');
   }

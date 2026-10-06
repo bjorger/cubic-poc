@@ -17,7 +17,7 @@ export function invoiceTotals(lines, taxBasisPoints) {
   }
   integer(subtotalCents, 'subtotalCents');
   const rawTax = subtotalCents * taxBasisPoints / 10000;
-  const taxCents = Math.floor(rawTax);
+  const taxCents = Math.round(rawTax);
   const totalCents = subtotalCents + taxCents;
   integer(totalCents, 'totalCents');
   return {
