@@ -1,0 +1,28 @@
+src/billing/invoice.mjs
+  h_b48525a15b2d62 20
+src/billing/refund.mjs
+  h_b48525a15b2d62 9
+src/catalog/pricing.mjs
+  h_b48525a15b2d62 13
+src/inventory/reserve.mjs
+  h_b48525a15b2d62 9,11-14
+src/orders/idempotency.mjs
+  h_b48525a15b2d62 11
+src/pagination/page.mjs
+  h_b48525a15b2d62 13
+src/subscriptions/renewal.mjs
+  h_b48525a15b2d62 11
+src/workers/dispatch.mjs
+  h_b48525a15b2d62 6,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8f8d338e1ba9eadf9eedb20e5c26b7693c4117fd",
+  "prompts": {},
+  "humans": {
+    "h_b48525a15b2d62": {
+      "author": "Robin Braumann <robin.braumann@n8n.io>"
+    }
+  }
+}
